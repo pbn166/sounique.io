@@ -169,19 +169,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li><a href="{{URL::to('/comment')}}">Liệt kê bình luận</a></li>
                     </ul>
                 </li>
-
-                 <li class="sub-menu">
+                <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-book"></i>
-                        <span>Vận chuyển</span>
+                        <span>Sản phẩm</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="{{URL::to('/delivery')}}">Quản lý vận chuyển</a></li>
-
-
+						<li><a href="{{URL::to('/add-product')}}">Thêm sản phẩm</a></li>
+						<li><a href="{{URL::to('/all-product')}}">Liệt kê sản phẩm</a></li>
 
                     </ul>
                 </li>
+                 <li>
+                    <a href="{{URL::to('read_data')}}">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Google drive</span>
+                    </a>
+                </li>
+
+
                 <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-book"></i>
@@ -248,7 +254,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
 
                 </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-book"></i>
+                        <span>Vận chuyển</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="{{URL::to('/delivery')}}">Quản lý vận chuyển</a></li>
 
+
+
+                    </ul>
+                </li>
 
 
                  <li class="sub-menu">

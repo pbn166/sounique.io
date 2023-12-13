@@ -157,7 +157,7 @@
 <div class="row">
 
 	<div class="col-md-4 col-xs-12">
-		<p class="title_thongke">Thống kê tổng sản phẩm bài viết đơn hàng</p>
+		<p class="title_thongke" style=" font-size: 24px;  padding: 10px; text-align:center;">Thống kê tổng quát</p>
 		<div id="donut"></div>
 	</div>
 
@@ -165,7 +165,7 @@
     <div class="col-md-6">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Sản phầm được xem nhiều</h3>
+                <p class="title_thongke" style=" font-size: 24px;  padding: 10px;text-align:center;">Sản phẩm được xem nhiều</p>
               </div>
               <!-- /.card-header -->
               <div class="card-body">

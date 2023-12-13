@@ -100,7 +100,7 @@
     <div class="col-lg-8 col-12 clearfix">
 		<div class="checkout-form">
 					<h2>Điền thông tin gửi hàng</h2>
-                    <p>Please register in order to checkout more quickly</p>
+                    <p>Làm ơn điền đầy đủ thông tin để đơn hàng vận chuyển nhanh hơn.</p>
 					 @if(\Session::has('error'))
 				        <div class="alert alert-danger">{{ \Session::get('error') }}</div>
 				        {{ \Session::forget('error') }}
@@ -340,7 +340,7 @@
 
 							@if(Session::get('cart'))
 
-							<td>
+
 
                                 <style>
                                 .pay-button {

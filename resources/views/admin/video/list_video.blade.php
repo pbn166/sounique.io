@@ -13,9 +13,9 @@
           <option value="2">Bulk edit</option>
           <option value="3">Export</option>
         </select>
-        <button class="btn btn-sm btn-default">Apply</button>                
+        <button class="btn btn-sm btn-default">Apply</button>
       </div> --}}
-     
+
       <div class="col-sm-12">
         <div class="position-center">
                                 <form>
@@ -46,7 +46,7 @@
                                       <select name="brand_product_status" class="form-control input-sm m-bot15">
                                             <option value="0">Hiển thị</option>
                                             <option value="1">Ẩn</option>
-                                            
+
                                     </select>
                                 </div>
                                 --}}
@@ -65,13 +65,13 @@
                             }
                             ?>
 
-   
+
          <div id="video_load"></div>
 
 
 
     </div>
-  
+
   </div>
 
   <!-- Modal -->
@@ -89,7 +89,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-         
+
         </div>
       </div>
     </div>
